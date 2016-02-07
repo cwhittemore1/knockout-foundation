@@ -1,0 +1,85 @@
+/* Dashboard
+--------------------------------------------------- */
+// Small screens
+@media only screen {
+  .hero-section {
+    color: $white!important;
+    text-align: center;
+    margin-bottom: 30px;
+
+    h1 {
+      margin-bottom: 50px;
+    }
+  }
+
+  .external-links {
+    color: $white!important;
+    display: table;
+    width: 100%;
+    padding-left: 0px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    li {
+      display: table-cell;
+      width: 25%;
+      text-align: center;
+    }
+
+    a {
+      margin: 1.5rem;
+      color: $opaque-white;
+    }
+
+    a:visited, a:hover, a:active {
+        color: $white;
+    }
+  }
+} 
+
+@media only screen and (min-width: 37em) { 
+  .hero-section {
+      max-width: 750px;
+      float: none!important;
+      margin: 150px auto 125px auto;
+      font-size: 1em;
+      padding: 0px 40px;
+    }
+
+    .external-links {
+      width: 500px;
+      font-size: 1em;
+    }
+
+    .dashboard-feed {
+      margin-bottom: 100px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+  .hero-section {
+    font-size: 1.375em;
+  }
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+    .hero-section {
+    font-size: 1.875em;
+  }
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

@@ -1,0 +1,160 @@
+/* Navigation 
+--------------------------------------------------- */
+// Small screens
+@media only screen {
+  .navigation {
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 0px 20px 0px;
+
+    ul {
+      padding-left: 0px;
+      display: table;
+      width: 100%;
+
+      li {
+        display: table-cell;
+        width: 25%;
+        text-align: center;
+
+        a {
+          color: $opaque-white;
+          text-decoration: none;
+          width: 25%;
+          font-weight: bold;
+        }
+
+        a.active,
+        a:hover {
+          color: $white;   
+        }
+      }
+    }
+  }
+
+  .home-link {
+
+  }
+
+  .navigation-home {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    color: white;
+    font-family: 'Qwigley', cursive;
+    font-size: 50px;
+    display: block;
+  }
+
+  .navigation-home:hover {
+    color: $white;
+  }
+
+  .subordinate-navigation {
+    color: $white;
+    text-align: center;
+    margin: 0px auto 50px auto;
+
+    a {
+      color: $opaque-white;
+    }
+    a:hover {
+      color: $white;
+    }
+  }
+
+
+  footer {
+    padding: 0px!important;
+
+    a {
+      width: 100%;
+      display: block;
+      padding: 10px 0px;
+    }
+
+    i, a {
+      color: $opaque-white;
+    }
+
+    a:hover {
+      color: $white;
+      background-color: $highlight-white;
+    }
+
+    section {
+      a {
+        padding:15px;
+      }
+    }
+  }
+} 
+
+@media only screen and (min-width: 37em) { 
+  .navigation {
+    text-align: left;
+    padding: 0px 20px;
+
+    ul {
+      width: initial;
+      margin-top: 40px;
+
+      li {
+        width: initial;
+
+        a {
+          padding-right: 20px;
+        }
+      }
+    } 
+  }
+  
+  .navigation-home {
+    float: right;
+    width: initial;
+  }
+
+  .subordinate-navigation {
+    margin-bottom: 100px;
+    display: inline;
+  }
+
+  footer {
+    border: none;
+
+    section {
+      border: none;
+      display: inline-block;
+
+      a {
+
+        i{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .footer-hire,
+  .footer-rss {
+    float: right;
+  }
+}
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
