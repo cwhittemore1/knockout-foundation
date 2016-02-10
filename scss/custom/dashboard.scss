@@ -35,6 +35,11 @@
         color: $white;
     }
   }
+
+  .dashboard-feed {
+    display: block;
+    clear: both;
+  }
 } 
 
 @media only screen and (min-width: 37em) { 

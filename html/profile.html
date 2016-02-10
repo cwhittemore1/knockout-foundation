@@ -14,17 +14,14 @@
   <link href='https://fonts.googleapis.com/css?family=Qwigley' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-
-  <!-- Light weight JS -->
-  <script src="js/pace.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body class="dashboard">
-   <div class="row">
+   <div class="row m-scene" id="main">
 
      <!-- Navigation Component -->
-     <div class="small-12 columns navigation">
+     <div class="small-12 columns navigation scene_element scene_element--fadeindown">
       <a href="file:///Users/christopherwhittemore/Dropbox/Development/knockout-foundation/index.html" class="navigation-home">Cw</a>
 
       <ul>
@@ -36,15 +33,27 @@
      </div>
 
 
-     <div class="small-12 columns">
-          <h3>Profile View</h3>
+     <div class="small-12 columns scene_element scene_element--fadein">
+          <h3>Christopher Whittemore</h3>
+          <span><em>User Interface Designer & Front-end Wed Developer</em></span>
 
-          <p> Body Text - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada pretium tellus, nec consequat augue pulvinar et. Quisque commodo quam ut nunc efficitur, et auctor eros ullamcorper. Nam sed posuere ipsum, ullamcorper mattis nibh. Pellentesque faucibus venenatis ex at pharetra. Vivamus volutpat mauris quis iaculis vestibulum. Aenean malesuada libero a faucibus rhoncus. Vestibulum finibus risus ac dapibus viverra. Aliquam velit lectus, laoreet eu ligula nec, vehicula efficitur leo. Sed nec commodo ex. Ut in felis et lectus porttitor tristique. In mollis convallis ante quis tristique. Pellentesque condimentum ex non dolor vulputate convallis. In facilisis est in dui varius laoreet.
+          <p> Organized, deadline-oriented craftsman with more than five years freelance expereience in junction with two years professional corporate experience. Strong written and verbal communication skills. Well versed in modern design utilities and how they apply to pragmatic front-end technologies.
         </p>
+
+       <div class="profile-links">
+         <strong>More on:</strong>
+         <a href="#">Twitter</a> 
+         <span>, </span>
+         <a href="#">Dribbble</a>
+         <span>, </span>
+         <a href="#">Codepen</a>
+         <span>, or </span>
+         <a href="#">Github</a>
+       </div>
      </div>
 
 
-   <footer class="small-12 columns">
+   <footer class="small-12 columns scene_element scene_element--fadeinup">
      <section class="footer-twitter">
       <a href="#">
         <i class="fa fa-twitter fa-lg"></i>
@@ -69,13 +78,13 @@
 </div>
 
 
-<!-- Global -->
-<script src="js/app.js"></script>
-
 <!-- Libraries -->
 <script type='text/javascript' src="../bower_components/jquery/dist/jquery.js"></script>
 <script type='text/javascript' src="../bower_components/foundation-sites/dist/foundation.js"></script>
 <script type='text/javascript' src='../bower_components/knockout/dist/knockout.js'></script>
+
+<!-- Global -->
+<script src="../js/app.js"></script>
 
 <!-- Interface -->
 <script type='text/javascript' src="../bower_components/underscore/underscore-min.js"></script>
@@ -83,6 +92,8 @@
 
 <!-- Interaction -->
 <script type='text/javascript' src="../bower_components/knockout-js-infinite-scroll/knockout-js-infinite-scroll.js"></script>
+<script type='text/javascript' src="../bower_components/smoothstate/jquery.smoothState.min.js"></script>
+<script type='text/javascript' src="../js/smoothStatePlugin.js"></script>
 
 <!-- Scripts -->
 

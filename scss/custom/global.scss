@@ -2,11 +2,14 @@
 ---------------------------------------------------- */ 
 body { 
   background: #207CA9;
-  max-width: 860px;
+  max-width: 660px;
   margin: 0 auto;
   color: white;
 }
 
 a { font-weight: bold; }
 
-hr { border-bottom: 1px solid $opaque-white; }
+hr { 
+  border-bottom: 1px solid $opaque-white; 
+  width: 100%;
+}

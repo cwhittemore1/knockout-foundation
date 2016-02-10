@@ -14,17 +14,15 @@
   <link href='https://fonts.googleapis.com/css?family=Qwigley' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <!-- Light weight JS -->
-  <script src="js/pace.js"></script>
 </head>
 
 <body class="dashboard">
-   <div class="row">
+   <div class="row m-scene" id="main">
 
      <!-- Navigation Component -->
-     <div class="small-12 columns navigation">
+     <div class="small-12 columns navigation scene_element scene_element--fadeindown">
       <a href="file:///Users/christopherwhittemore/Dropbox/Development/knockout-foundation/index.html" class="navigation-home">Cw</a>
 
       <ul>
@@ -35,74 +33,81 @@
       </ul>
      </div>
 
-     <div class="small-12 columns">
-          <h3>Notes View</h3>
+     <section class="small-12 columns scene_element scene_element--fadein">
+          <h2>Initial Notes</h2>
 
-          <p> Body Text - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada pretium tellus, nec consequat augue pulvinar et. Quisque commodo quam ut nunc efficitur, et auctor eros ullamcorper. Nam sed posuere ipsum, ullamcorper mattis nibh. Pellentesque faucibus venenatis ex at pharetra. Vivamus volutpat mauris quis iaculis vestibulum. Aenean malesuada libero a faucibus rhoncus. Vestibulum finibus risus ac dapibus viverra. Aliquam velit lectus, laoreet eu ligula nec, vehicula efficitur leo. Sed nec commodo ex. Ut in felis et lectus porttitor tristique. In mollis convallis ante quis tristique. Pellentesque condimentum ex non dolor vulputate convallis. In facilisis est in dui varius laoreet.
-        </p>
+          <p> 
+            Today, Monday, February 8, 2016 marks my initial date of commitment to my living portfolio project. This location will be home to a variety of ideas; wirtings, notes, drawings, and inspiration. Today I have decided to try and keep things   light. For now we will be operating on basic HTML / CSS and will be tying in some MVVM functionality with knockout. This should keep me away from a full front end framework for some time until the need arises for more complex content. 
+          </p>
 
-        <!-- Unordered List -->
-        <ul>
-          <li>List Element</li>
-          <li>List Element</li>
-          <li>List Element</li>
-          <li>List Element</li>
-        </ul>
+         <!-- Unordered List -->
+          <h5>Expectations</h5>
+          <ul>
+            <li>An organized repository for a choice selection of my works</li>
+            <li>A location where I can actively communicate my thoughts to written word</li>
+            <li>Professional atmosphere for presentation level materials</li>
+            <li>Expanded web presence</li>
+          </ul>
 
-        <p><a href="#">Generic in text links</a></p>
-        <blockquote><p>This is a blockquote, one that can wrap for as many lines as needed. If I was to keep typing, as you see, the block quote just keeps exending, neat!</p></blockquote>
+          <br>  
 
-        <!-- Article Horizontal Rule's are unique -->
-        <hr>
-     </div>
+          <blockquote>
+            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains</p>
+            <span>- Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</span>
+          </blockquote>
+      
+      </section>
 
-        <!-- Images -->
+        <!-- Images 
         <img class="full-width" src="http://placehold.it/350x150?text=full+width">
         <img class="float-left" src="http://placehold.it/350x150?text=float+left">
         <img class="float-right" src="http://placehold.it/350x150?text=float+right">
         <img class="centered" src="http://placehold.it/350x150?text=limited+width">
 
-        <hr>
+        <hr> -->
 
-   <footer class="small-12 columns">
-     <section class="footer-twitter">
-      <a href="#">
-        <i class="fa fa-twitter fa-lg"></i>
-        Follow Me on Twitter
-      </a>
-     </section>
+     <footer class="small-12 columns scene_element scene_element--fadeinup">
+       <section class="footer-twitter">
+        <a href="#">
+          <i class="fa fa-twitter fa-lg"></i>
+          Follow Me on Twitter
+        </a>
+       </section>
 
-     <section class="footer-hire">
-       <a href="#">
-         <i class="fa fa-send fa-lg"></i>
-         Hire Chris
-       </a>
-     </section>
+       <section class="footer-hire">
+         <a href="#">
+           <i class="fa fa-send fa-lg"></i>
+           Hire Chris
+         </a>
+       </section>
 
-     <section class="footer-rss">
-       <a href="#">
-         <i class="fa fa-rss fa-lg"></i>
-         RSS Feed
-       </a>
-     </section>
-   </footer>
+       <section class="footer-rss">
+         <a href="#">
+           <i class="fa fa-rss fa-lg"></i>
+           RSS Feed
+         </a>
+       </section>
+     </footer>
 </div>
 
-
-<!-- Global -->
-<script src="js/app.js"></script>
+</div>
 
 <!-- Libraries -->
-<script type='text/javascript' src="bower_components/jquery/dist/jquery.js"></script>
-<script type='text/javascript' src="bower_components/foundation-sites/dist/foundation.js"></script>
-<script type='text/javascript' src='bower_components/knockout/dist/knockout.js'></script>
+<script type='text/javascript' src="../bower_components/jquery/dist/jquery.js"></script>
+<script type='text/javascript' src="../bower_components/foundation-sites/dist/foundation.js"></script>
+<script type='text/javascript' src='../bower_components/knockout/dist/knockout.js'></script>
+
+<!-- Global -->
+<script src="../js/app.js"></script>
 
 <!-- Interface -->
-<script type='text/javascript' src="bower_components/underscore/underscore-min.js"></script>
-<script type='text/javascript' src="bower_components/what-input/what-input.js"></script>
+<script type='text/javascript' src="../bower_components/underscore/underscore-min.js"></script>
+<script type='text/javascript' src="../bower_components/what-input/what-input.js"></script>
 
 <!-- Interaction -->
-<script type='text/javascript' src="bower_components/knockout-js-infinite-scroll/knockout-js-infinite-scroll.js"></script>
+<script type='text/javascript' src="../bower_components/knockout-js-infinite-scroll/knockout-js-infinite-scroll.js"></script>
+<script type='text/javascript' src="bower_components/smoothstate/jquery.smoothState.min.js"></script>
+<script type='text/javascript' src="js/smoothStatePlugin.js"></script>
 
 <!-- Scripts -->
 

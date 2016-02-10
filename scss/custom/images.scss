@@ -1,9 +1,6 @@
 /* Images
 --------------------------------------------------- */
 img {
-    margin-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .full-width {
@@ -52,37 +49,9 @@ img {
     *zoom: 1;
 }
 
-
 .container {
   width: 100%;
   position: relative;
-}
-
-.container > header {
-  width: 90%;
-  max-width: 1240px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 30px 50px 30px;
-}
-
-.container > header {
-  padding: 60px 30px 50px;
-  text-align: center;
-}
-
-.container > header h1 {
-  font-size: 34px;
-  line-height: 38px;
-  margin: 0 auto;
-  font-weight: 700;
-  color: #333;
-}
-
-.container > header h1 span {
-  display: block;
-  font-size: 20px;
-  font-weight: 300;
 }
 
 .main > p {
@@ -136,6 +105,7 @@ img {
   margin: 10px 5px 0 5px;
   vertical-align: top;
   height: 250px;
+  width: 100%;  
 }
 
 .og-grid li > a,
@@ -145,6 +115,7 @@ img {
   display: block;
   position: relative;
   padding: 0px;
+  width: 100%;
 }
 
 .og-grid li.og-expanded > a::after {
@@ -155,7 +126,7 @@ img {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #ddd;
+  border-bottom-color: $highlight-white;
   border-width: 15px;
   left: 50%;
   margin: -20px 0 0 -15px;
@@ -163,7 +134,7 @@ img {
 
 .og-expander {
   position: absolute;
-  background: #ddd;
+  background-color: $highlight-white;
   top: auto;
   left: 0;
   width: 100%;
@@ -222,7 +193,10 @@ img {
 }
 
 .og-details {
-  padding: 0 40px 0 20px;
+  color: $white;
+  p {
+    color: $white;
+  }
 }
 
 .og-fullimg {
@@ -246,7 +220,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #999;
+  color: $white;
 }
 
 .og-details a {
@@ -260,6 +234,7 @@ img {
   display: inline-block;
   margin: 30px 0 0;
   outline: none;
+    display: none;
 }
 
 .og-details a::before {
@@ -277,7 +252,7 @@ img {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #ddd;
+  background: $highlight-white;
   box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
   position: absolute;
   top: 50%;
@@ -289,20 +264,20 @@ img {
 }
 
 @-webkit-keyframes loader {
-  0% { background: #ddd; }
+  0% { background: $highlight-white; }
   33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
   66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
 @-moz-keyframes loader {
-  0% { background: #ddd; }
+  0% { background: $highlight-white; }
   33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
   66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
 @keyframes loader {
-  0% { background: #ddd; }
-  33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+  0% { background: $highlight-white; }
+  33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd }
   66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
@@ -319,4 +294,12 @@ img {
   .og-fullimg { display: none; }
   .og-details { float: none; width: 100%; }
   
+}
+
+@media screen and (min-width: 450px) {
+  .og-grid li,
+  .og-grid li > a,
+  .og-grid li > a img {
+    width: initial;
+  }
 }
