@@ -12,15 +12,5 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zurb/foundation-sites-template.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zurb/foundation-sites-template/issues"
-  },
-  "homepage": "https://github.com/zurb/foundation-sites-template#readme"
+  }
 }
