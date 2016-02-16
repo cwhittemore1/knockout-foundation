@@ -39,9 +39,11 @@
 
   .media-object-section {
       display: table-cell;
+      vertical-align: middle;
 
     img {
-      width: initial;
+      width: 300px;
+      height: auto;
       margin-right: 20px;
     }
   }

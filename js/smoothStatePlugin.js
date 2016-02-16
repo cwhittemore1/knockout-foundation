@@ -5,6 +5,7 @@ $(function(){
         debug: true,
         prefetch: true,
         cacheLength: 2,
+
         onStart: {
           duration: 650, // Duration of our animation
           render: function ($container) {
@@ -14,6 +15,7 @@ $(function(){
             smoothState.restartCSSAnimations();
           }
         },
+        
         onReady: {
           duration: 0,
           render: function ($container, $newContent) {

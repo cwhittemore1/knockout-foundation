@@ -1,80 +1,38 @@
 /* Reset
----------------------------------------------------- */ 
-@import 'custom/reset';
+---------------------------------------------------- */
+@import 'components/reset';
 
 
 /* 3rd Party
 ---------------------------------------------------- */
 @charset 'utf-8';
-@import 'foundation';
-@include foundation-grid;
-
-
-@import 'settings';
-@import 'motion-ui';
-
-@include foundation-global-styles;
-/* @include foundation-typography; */
-@include foundation-button;
-@include foundation-forms;
-@include foundation-visibility-classes;
-@include foundation-float-classes;
-@include foundation-accordion;
-@include foundation-badge;
-@include foundation-breadcrumbs;
-@include foundation-button-group;
-@include foundation-callout;
-@include foundation-close-button;
-@include foundation-drilldown-menu;
-@include foundation-dropdown;
-@include foundation-dropdown-menu;
-@include foundation-flex-video;
-@include foundation-label;
-@include foundation-media-object;
-@include foundation-menu;
-@include foundation-off-canvas;
-@include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
-@include foundation-sticky;
-@include foundation-reveal;
-@include foundation-switch;
-@include foundation-table;
-@include foundation-tabs;
-@include foundation-thumbnail;
-@include foundation-title-bar;
-@include foundation-tooltip;
-@include foundation-top-bar;
-
-@include motion-ui-transitions;
-@include motion-ui-animations;
-
 
 /* Global
 ---------------------------------------------------- */
-@import 'custom/variables';
-@import 'custom/global';
-@import 'custom/navigation';
-@import 'custom/sandbox';
+@import 'components/variables';
+@import 'components/global';  
+@import 'components/navigation';
+@import 'components/sandbox';
 
 
 /* View Specific
 ---------------------------------------------------- */
-@import 'custom/dashboard';
+@import 'components/dashboard';
 
 
 /* Interface
 ---------------------------------------------------- */
-@import 'custom/loading-bar';
-@import 'custom/typography';
-@import 'custom/links';
-@import 'custom/articles';
-@import 'custom/images';
+@import 'components/typography';
+@import 'components/links';
+@import 'components/articles';
+@import 'components/images';
+@import 'components/media-object';
+@import 'components/grid';
+@import 'components/forms';
 
 /* Animation
 ---------------------------------------------------- */
-@import 'custom/keyframes.scss';
+@import 'components/keyframes.scss';
 
 
 

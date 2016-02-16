@@ -1,5 +1,10 @@
 /* Typography
 -------------------------------------------------------------- */
+html, .media-object {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
 body { font-family: 'Andada', serif; }
 
 p {margin-bottom: 2em; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;}

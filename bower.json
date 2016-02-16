@@ -1,17 +1,13 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
+  "name": "knockout-foundation",
+  "description": "",
+  "main": "gulpfile.js",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "Christopher Whittemore <cwhittemore.me@gmail.com>"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
-  "main": "index.html",
-  "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
-  "dependencies": {
-    "foundation-sites": "~6.0.0",
-    "motion-ui": "~1.1.0"
-  },
+  "license": "ISC",
+  "homepage": "http://www.cwhittemore.me",
+  "moduleType": [],
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,5 +15,9 @@
     "test",
     "tests"
   ],
-  "private": true
+  "dependencies": {
+    "knockout": "~3.2.0",
+    "smoothstate": "~0.7.2",
+    "masonry": "~4.0.0"
+  }
 }

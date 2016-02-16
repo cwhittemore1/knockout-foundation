@@ -1,0 +1,57 @@
+/* Custom Global
+---------------------------------------------------- */ 
+body { 
+  background: #207CA9;
+  max-width: 660px;
+  margin: 0 auto;
+  color: white;
+}
+
+a { font-weight: bold; }
+
+hr { 
+  border-bottom: 1px solid $opaque-white; 
+  width: 100%;
+}
+
+/* used for view body content */
+.content-panel {
+  margin: 0px 15px;
+} 
+
+
+
+#container {
+    width: 100%;
+    position: relative;
+}
+.box {
+    float: left;
+    background-color: $highlight-white;
+    position: relative;
+}
+
+.box:hover {
+  background-color: $opaque-white;
+}
+
+
+
+
+.main {
+  padding: 15px;
+}
+
+.relative-parent {
+  position: relative;
+}
+
+.absolute-child {
+  position: absolute;
+}
+
+@media only screen and (min-width: 37em) { 
+  .main {
+      margin-bottom: 50px;
+  }
+}

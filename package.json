@@ -1,27 +1,26 @@
 {
-  "name": "foundation-sites-template",
+  "name": "knockout-foundation",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "",
   "main": "gulpfile.js",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^2.2.0",
     "gulp-load-plugins": "^1.1.0",
+    "gulp-autoprefixer": "^2.3.1",
     "gulp-sass": "^2.1.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "gulp",
-    "build": "gulp sass"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-sites-template.git"
+    "url": "git+https://github.com/zurb/foundation-sites-template.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "url": "https://github.com/zurb/foundation-sites-template/issues"
   },
-  "author": "ZURB <foundation@zurb.com>",
-  "license": "MIT",
-  "private": true
+  "homepage": "https://github.com/zurb/foundation-sites-template#readme"
 }
