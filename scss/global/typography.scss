@@ -70,6 +70,10 @@ a.article_title {
   line-height: 1.2;
 }
 
+.active {
+  color: white!important;
+}
+
 @media screen and (min-width: 37em) { 
   blockquote {
     width: 75%;

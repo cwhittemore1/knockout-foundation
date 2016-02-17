@@ -1,6 +1,6 @@
-/* Dashboard
+/* Hero
 --------------------------------------------------- */
-// Small screens
+
 @media only screen {
   .hero-section {
     color: $white!important;
@@ -62,12 +62,7 @@
       width: 500px;
       font-size: 1em;
     }
-
-    .dashboard-feed {
-      margin-bottom: 100px;
-      padding-bottom: 30px;
-    }
-  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+  }
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { 

@@ -1,40 +1,21 @@
-/* Reset
----------------------------------------------------- */
-@import 'components/reset';
-
-
-/* 3rd Party
----------------------------------------------------- */
-@charset 'utf-8';
 
 /* Global
 ---------------------------------------------------- */
-@import 'components/variables';
-@import 'components/global';  
-@import 'components/navigation';
-@import 'components/sandbox';
+@import 'global/reset';
+@import 'global/variables';
+@import 'global/keyframes';
+@import 'global/global';
+@import 'global/typography';
 
-
-/* View Specific
----------------------------------------------------- */
-@import 'components/dashboard';
-
-
-/* Interface
----------------------------------------------------- */
-@import 'components/typography';
-@import 'components/links';
-@import 'components/articles';
-@import 'components/images';
-@import 'components/media-object';
+/* Components
+--------------------------------------------------- */
 @import 'components/grid';
+@import 'components/images';
+@import 'components/buttons';
+@import 'components/links';
+@import 'components/navigation';
+@import 'components/articles';
 @import 'components/forms';
-
-/* Animation
----------------------------------------------------- */
-@import 'components/keyframes.scss';
-
-
-
-
+@import 'components/feed';
+@import 'components/hero';
 
