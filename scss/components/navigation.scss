@@ -40,6 +40,7 @@
     font-family: 'Qwigley', cursive;
     font-size: 50px;
     display: block;
+    font-weight: bold;
   }
 
   .navigation-home:hover {
@@ -53,6 +54,7 @@
 
     a {
       color: $opaque-white;
+      font-weight: bold;
     }
     a:hover {
       color: $white;
@@ -67,6 +69,7 @@
       width: 100%;
       display: block;
       padding: 10px 0px;
+      font-weight: bold;
     }
 
     i, a {
@@ -91,6 +94,9 @@
 
 .profile-links {
   margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
 }
   
 } 
