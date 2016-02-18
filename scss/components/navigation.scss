@@ -94,7 +94,6 @@
 
 .profile-links {
   margin-bottom: 50px;
-  text-align: center;
   width: 100%;
   display: inline-block;
 }
@@ -156,6 +155,10 @@
         padding: 15px 15px 15px 0px!important;
       }
     }
+  }
+
+  .profile-links {
+      text-align: center;
   }
 
   .footer-hire,
