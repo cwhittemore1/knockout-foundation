@@ -19,7 +19,7 @@ textarea {
 input,
 textarea {
   font-size: 18px;
-  padding: 10px 0px 10px 5px;
+  padding: 10px 0px 10px 0px;
   -webkit-appearance: none;
   display: block;
   background: transparent;
@@ -28,7 +28,7 @@ textarea {
   border: none;
   border-radius: 0;
   border-bottom: 1px solid $opaque-white;
-  max-width: 615px;
+  max-width: 660px;
 }
 
 input:focus,
