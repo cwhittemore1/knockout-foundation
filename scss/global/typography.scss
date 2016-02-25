@@ -20,6 +20,7 @@ h1 {font-size: 1.667em;}
 
 h1, h2, h3, h4, h5 {
   color: white!important;
+  font-weight: normal!important;
 }
 
 h2, h3 {
@@ -27,7 +28,6 @@ h2, h3 {
   line-height: 1.3em;
   margin-bottom: 0.15em;
   color: #3a3a3a;
-  font-weight: normal;
 }
 
 h5{font-size: 1.375em;}
@@ -74,7 +74,7 @@ a.article_title {
   color: white!important;
 }
 
-@media screen and (min-width: 37em) { 
+@media screen and (min-width: 37em) {
   blockquote {
     width: 75%;
     margin: 0 auto;
