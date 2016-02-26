@@ -91,10 +91,10 @@ textarea:focus ~ .highlight {
   animation: inputHighlighter 0.3s ease;
 }
 
-@keyframes inputHighlighter {
-  from { background: #4a89dc; }
-  to  { width: 0; background: transparent; }
-} 
+  @keyframes inputHighlighter {
+    from { background: #4a89dc; }
+    to { width: 0; background: transparent; }
+  } 
 }
 
 @media only screen and (min-width: 40em) { }

@@ -5,25 +5,40 @@ html, .media-object {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
-body { font-family: 'Andada', serif; }
+body { 
+  font-family: 'Andada', serif; 
+}
 
-p {margin-bottom: 2em; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;}
-.article p+p {text-indent: 1.5em; margin-top:-2em;}
-.article p img{margin:4em 0;}
+p {
+  margin-bottom: 2em; 
+  -webkit-hyphens: auto; 
+  -moz-hyphens: auto; 
+  hyphens: auto;
+}
 
-p+p.pull, p+p.flush{margin-top: 0; margin-bottom: 4em;}
+.article p+p {
+  text-indent: 1.5em; 
+  margin-top:-2em;
+}
+.article p img{
+  margin:4em 0;
+}
 
+p+p.pull, p+p.flush{
+  margin-top: 0; 
+  margin-bottom: 4em;
+}
 
 strong {font-weight: bold;}
 em {font-style: italic;}
 h1 {font-size: 1.667em;}
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   color: white!important;
   font-weight: normal!important;
 }
 
-h2, h3 {
+h1, h2, h3 {
   font-size: 1.667em;
   line-height: 1.3em;
   margin-bottom: 0.15em;
@@ -74,9 +89,29 @@ a.article_title {
   color: white!important;
 }
 
+@media screen and (min-width: 23em) {
+  p,a,span,strong {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 25em) {
+    p,a,span,strong {
+    font-size: 1.27em;
+  }
+}
+
 @media screen and (min-width: 37em) {
   blockquote {
     width: 75%;
     margin: 0 auto;
+  }
+
+  a {
+    font-size: 1em;
+  }
+
+  p,span,strong {
+    font-size: 1.2em;
   }
 }

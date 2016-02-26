@@ -3,6 +3,10 @@
 
 // Small screens
 @media only screen { 
+
+  article {
+    margin-bottom: 100px!important;
+  }
  
  .articles-feed {
   height: 50vh;
@@ -11,7 +15,7 @@
  }
 
   .media-object {
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 
   .media-object:hover {
