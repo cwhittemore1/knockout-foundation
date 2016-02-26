@@ -64,6 +64,7 @@ a:hover {
 
 blockquote {
   margin: 0px;
+  font-style: italic;
 }
 
 blockquote > p {
@@ -96,7 +97,7 @@ a.article_title {
 }
 
 @media screen and (min-width: 25em) {
-    p,a,span,strong {
+    p,span,strong {
     font-size: 1.27em;
   }
 }
